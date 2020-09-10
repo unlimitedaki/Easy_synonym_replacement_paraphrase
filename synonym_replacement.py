@@ -17,7 +17,7 @@ def load_data(file_name):
     sentence_data = [sent_tokenize(line) for line in data] 
     return sentence_data
 
-def find_
+# def find_
 
 def get_synonyms_and_antonyms(word):
     '''
@@ -45,15 +45,31 @@ def synonym_antonym_replacement(args):
         result_json[doc_index] = []
         for sentence in document:
             sentence_json = {}
+
             # just simplely use nltk tools to tokenize and pos_tagging
             words = nltk.word_tokenize(sentence)
+            sy_words = words.copy()
+            an_words = words.copy()
             pos_list = nltk.pos_tag(words)
             for i in range(len(words)):
                 if words[i] not in nltk.stopwords and pos_list[i] in ["JJ","RB"]:
-                    get_synonyms_and_antonyms(words[i])
-                    synonym = random.sample()
-                    
-            
+                    synonyms,antonyms = get_synonyms_and_antonyms(words[i])
+                    # random pick one synonym and one antonym
+                    if len(synonyms)>0:
+                        synonym = random.sample(synonyms,1)[0]
+                        sy_words[i] = synonym
+                    if len(antonyms)>0:
+                        antonym = random.sample(antonyms,1)[0]
+                        an_words[i] = antonym
+            sy_sentence = " ".join(sy_words)
+            an_sentence = " ".join(an_words)
+            sentence_json['raw'] = sentence
+            sentence_json['synonyms'] = sy_sentence
+            sentence_json['antonyms'] = an_sentence
+            result_json.append(sentence_json)
+    return result_json
+
+
 def synonym_antonym_replacement_api(
     file_name,
     mode = "Both"
