@@ -1,3 +1,7 @@
+import random
+from nltk.corpus import wordnet
+from nltk.corpus import stopwords
+from nltk.tokenize import sent_tokenize
 import nltk
 import json
 import argparser
@@ -5,39 +9,39 @@ import pdb
 nltk.download('averaged_perceptron_tagger')
 nltk.download('punkt')
 nltk.download('wordnet')
-from nltk.tokenize import sent_tokenize
-from nltk.corpus import wordnet 
-from nltk.corpus import stopwords
-import random 
 
 
 def load_data(file_name):
     sentence_data = []
-    with open(file_name,'r',encoding='utf8') as f:
+    with open(file_name, 'r', encoding='utf8') as f:
         data = f.readlines()
-    sentence_data = [sent_tokenize(line) for line in data] 
+    sentence_data = [sent_tokenize(line) for line in data]
     return sentence_data
 
+
 def get_synonyms_and_antonyms(word):
-    synonyms=set()
-    antonyms=set()
-    for syn in wordnet.synsets(word): 
-	    for l in syn.lemmas(): 
-			synonym = l.name().replace("_", " ").replace("-", " ").lower()
-			synonym = "".join([char for char in synonym if char in ' qwertyuiopasdfghjklzxcvbnm'])
-			synonyms.add(synonym)
+    synonyms = set()
+    antonyms = set()
+    for syn in wordnet.synsets(word):
+        for l in syn.lemmas():
+            synonym = l.name().replace("_", " ").replace("-", " ").lower()
+            synonym = "".join(
+                [char for char in synonym if char in ' qwertyuiopasdfghjklzxcvbnm'])
+            synonyms.add(synonym)
             if l.antonyms():
                 antonym = l.name().replace("_", " ").replace("-", " ").lower()
-                antonym  = "".join([char for char in antonym if char in ' qwertyuiopasdfghjklzxcvbnm'])
+                antonym = "".join(
+                    [char for char in antonym if char in ' qwertyuiopasdfghjklzxcvbnm'])
                 antonyms.add(antonym)
     if word in synonyms:
-		synonyms.remove(word)
-    return list(synonyms),list(antonyms)
+        synonyms.remove(word)
+    return list(synonyms), list(antonyms)
+
 
 def synonym_antonym_replacement(args):
     sentence_data = load_data(args.file_name)
     result_json = {}
-    for doc_index,document in enumerate(sentence_data):
+    for doc_index, document in enumerate(sentence_data):
         result_json[doc_index] = []
         for sentence in document:
             sentence_json = {}
@@ -48,14 +52,14 @@ def synonym_antonym_replacement(args):
             an_words = words.copy()
             pos_list = nltk.pos_tag(words)
             for i in range(len(words)):
-                if words[i] not in nltk.stopwords and pos_list[i] in ["JJ","RB"]:
-                    synonyms,antonyms = get_synonyms_and_antonyms(words[i])
+                if words[i] not in nltk.stopwords and pos_list[i] in ["JJ", "RB"]:
+                    synonyms, antonyms = get_synonyms_and_antonyms(words[i])
                     # random pick one synonym and one antonym
-                    if len(synonyms)>0:
-                        synonym = random.sample(synonyms,1)[0]
+                    if len(synonyms) > 0:
+                        synonym = random.sample(synonyms, 1)[0]
                         sy_words[i] = synonym
-                    if len(antonyms)>0:
-                        antonym = random.sample(antonyms,1)[0]
+                    if len(antonyms) > 0:
+                        antonym = random.sample(antonyms, 1)[0]
                         an_words[i] = antonym
             sy_sentence = " ".join(sy_words)
             an_sentence = " ".join(an_words)
@@ -68,7 +72,7 @@ def synonym_antonym_replacement(args):
 
 def synonym_antonym_replacement_api(
     file_name,
-    mode = "Both"
+    mode="Both"
 ):
     args.file_name = file_name
     args.mode = mode
@@ -76,14 +80,14 @@ def synonym_antonym_replacement_api(
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--file_name",type = str,default = "CompreOE-passage.txt")
-parser.add_argument("--mode",type = str,default = "Both")
+parser.add_argument("--file_name", type=str, default="CompreOE-passage.txt")
+parser.add_argument("--mode", type=str, default="Both")
 try:
     # shell
     args = parser.parse_args()
 except:
     # on notebook
-    args = parser.parse_args(args = [])
+    args = parser.parse_args(args=[])
 
 if __name__ == "main":
     synonym_antonym_replacement(args)
