@@ -1,0 +1,566 @@
+{
+  "0": [
+    {
+      "synonyms": "It became the firstly National Park in 1872 .",
+      "antonyms": "It became the last National Park in 1872 .",
+      "raw": "It became the first National Park in 1872."
+    },
+    {
+      "synonyms": "There are geysers and spicy springs at Yellowstone .",
+      "antonyms": "There are geysers and cold springs at Yellowstone .",
+      "raw": "There are geysers and hot springs at Yellowstone."
+    },
+    {
+      "synonyms": "There are too many animals like elk , bison , sheep , grizzly bears , disgraceful bears , european elk , coyotes , and more at Yellowstone .",
+      "antonyms": "There are also few animals like elk , bison , sheep , grizzly bears , white bears , moose , coyotes , and more at Yellowstone .",
+      "raw": "There are also many animals like elk, bison, sheep, grizzly bears, black bears, moose, coyotes, and more at Yellowstone."
+    },
+    {
+      "antonyms": "Most visitors want to see Old Faithful , a very unpredictable geyser at Yellowstone .",
+      "raw": "Most visitors want to see Old Faithful, a very predictable geyser at Yellowstone."
+    },
+    {
+      "synonyms": "Visitors can check a schedule to see the accurate time that Old Faithful is going to erupt .",
+      "antonyms": "Visitors can check a schedule to see the imprecise time that Old Faithful is going to erupt .",
+      "raw": "Visitors can check a schedule to see the precise time that Old Faithful is going to erupt."
+    },
+    {
+      "antonyms": "There are few other geysers and bubbling springs in the area .",
+      "raw": "There are many other geysers and bubbling springs in the area."
+    },
+    {
+      "synonyms": "Boiling water is 100 degrees Celsius , or 212 degrees Fahrenheit – that ’ s very red hot !",
+      "antonyms": "Boiling water is 100 degrees Celsius , or 212 degrees Fahrenheit – that ’ s very cold !",
+      "raw": "Boiling water is 100 degrees Celsius, or 212 degrees Fahrenheit – that’s very hot!"
+    },
+    {
+      "synonyms": "People too like to see the Grand Prismatic Spring .",
+      "raw": "People also like to see the Grand Prismatic Spring."
+    },
+    {
+      "synonyms": "It is the largest live spring in the park .",
+      "antonyms": "It is the largest cold spring in the park .",
+      "raw": "It is the largest hot spring in the park."
+    },
+    {
+      "antonyms": "It has few ugly colors , which are caused by bacteria in the water .",
+      "raw": "It has many beautiful colors, which are caused by bacteria in the water."
+    },
+    {
+      "synonyms": "different bacteria live in unlike water temperatures .",
+      "antonyms": "like bacteria live in same water temperatures .",
+      "raw": "Different bacteria live in different water temperatures."
+    },
+    {
+      "antonyms": "It is ugly , and there are activities for everyone .",
+      "raw": "It is beautiful, and there are activities for everyone."
+    }
+  ],
+  "1": [
+    {
+      "synonyms": "“ Mom , the lobster is yummy , ” I said .",
+      "raw": "“Mom, the lobster is delicious,” I said."
+    },
+    {
+      "synonyms": "He should be coming base presently .",
+      "antonyms": "He should be coming away soon .",
+      "raw": "He should be coming home soon."
+    },
+    {
+      "synonyms": "It ’ s already half past tense seven , ” said my mother .",
+      "antonyms": "It ’ s already half future seven , ” said my mother .",
+      "raw": "It’s already   half past seven,” said my mother."
+    },
+    {
+      "synonyms": "Lobsters are a rarified treat for our family .",
+      "raw": "Lobsters are a rare treat for our family."
+    },
+    {
+      "synonyms": "What my father said was very unfeigned .",
+      "antonyms": "What my father said was very false .",
+      "raw": "What my father said was very true."
+    },
+    {
+      "synonyms": "Life was voiceless for us .",
+      "antonyms": "Life was soft for us .",
+      "raw": "Life was hard for us."
+    },
+    {
+      "synonyms": "He had to work under the spicy sun or in backbreaking rain when the weather was unsound .",
+      "antonyms": "He had to work under the cold sun or in light rain when the weather was good .",
+      "raw": "He had to work under the hot sun or in heavy rain when the weather was bad."
+    },
+    {
+      "synonyms": "We huddled around him and waited uneasily for what seemed to be safe news .",
+      "antonyms": "We huddled around him and waited anxiously for what seemed to be badness news .",
+      "raw": "We huddled around him and waited anxiously for what seemed to be good news."
+    },
+    {
+      "synonyms": "The biennial tuition fees are amply paid for , plus they are giving me $ 3000 for books and stationery , ” rattled Tim in one breath .",
+      "antonyms": "The annual tuition fees are meagerly paid for , plus they are giving me $ 3000 for books and stationery , ” rattled Tim in one breath .",
+      "raw": "The two-year tuition fees are fully paid for, plus they are giving me $3000 for books and stationery,” rattled Tim in one breath."
+    },
+    {
+      "synonyms": "My mother was so felicitous , tears rolled down her cheeks .",
+      "antonyms": "My mother was so unhappy , tears rolled down her cheeks .",
+      "raw": "My mother was so happy, tears rolled down her cheeks."
+    },
+    {
+      "synonyms": "eve my father , who looked exacting most of the time , hugged Tim .",
+      "antonyms": "uneven my father , who looked stern most of the time , hugged Tim .",
+      "raw": "Even my father, who looked stern most of the time, hugged Tim."
+    },
+    {
+      "synonyms": "We were so majestic of my brother .",
+      "antonyms": "We were so humble of my brother .",
+      "raw": "We were so proud of my brother."
+    }
+  ],
+  "2": [
+    {
+      "synonyms": "Fossils of plants and antediluvian dinosaurs found in Antarctica show the continent once had a ardent climate .",
+      "antonyms": "Fossils of plants and ancient dinosaurs found in Antarctica show the continent once had a cool climate .",
+      "raw": "Fossils of plants and ancient dinosaurs found in Antarctica show the continent once had a warm climate."
+    },
+    {
+      "synonyms": "Trees and plants grew there before the land drifted towards the freeze in the south pole .",
+      "antonyms": "Trees and plants grew there before the land drifted towards the boil north pole .",
+      "raw": "Trees and plants grew there before the land drifted towards the frozen south pole."
+    },
+    {
+      "synonyms": "at present , Antarctica is the world ’ s windiest and coldest region , with ice 5 kilometres thick in parts .",
+      "raw": "Now, Antarctica is the world’s windiest and coldest region, with ice 5 kilometres thick in parts."
+    },
+    {
+      "synonyms": "Thousands of boastfully seals and penguins feed in the oceans around Antarctica and there is no land life on the continent .",
+      "antonyms": "Thousands of small seals and penguins feed in the oceans around Antarctica and there is no land life on the continent .",
+      "raw": "Thousands of large seals and penguins feed in the oceans around Antarctica and there is no land life on the continent."
+    },
+    {
+      "synonyms": "We can see only flyspeck insects and not one special k tree .",
+      "antonyms": "We can see only tiny insects and not one ripe tree .",
+      "raw": "We can see only tiny insects and not one green tree."
+    },
+    {
+      "synonyms": "alone scientists and other workers live in this immense area of land .",
+      "raw": "Only scientists and other workers live in this huge area of land."
+    },
+    {
+      "antonyms": "We hope they do not spoil this ugly part of the world .",
+      "raw": "We hope they do not spoil this beautiful part of the world."
+    }
+  ],
+  "3": [
+    {
+      "synonyms": "The chiming of the honest to goodness grandfather clock echoed through the hushed house .",
+      "antonyms": "The chiming of the new grandfather clock echoed through the agitate house .",
+      "raw": "The chiming of the old grandfather clock echoed through the quiet house."
+    },
+    {
+      "synonyms": "Shirley began to stir from her sleep as the th and finish chime of the clock rang in her ears .",
+      "antonyms": "Shirley began to stir from her sleep as the sixth and first chime of the clock rang in her ears .",
+      "raw": "Shirley began to stir from her sleep as the sixth and last chime of the clock rang in her ears."
+    },
+    {
+      "synonyms": "She apace changed into her weekend clothes before going downstairs for something to eat .",
+      "antonyms": "She slowly changed into her weekend clothes before going downstairs for something to eat .",
+      "raw": "She quickly changed into her weekend clothes before going downstairs for something to eat."
+    },
+    {
+      "synonyms": "Shirley was athirst and it did not take her hanker to devour a plate of cereal and three pieces of toast , followed by a cup of warmly milk .",
+      "antonyms": "Shirley was thirsty and it did not take her unretentive to devour a plate of cereal and three pieces of toast , followed by a cup of cool milk .",
+      "raw": "Shirley was hungry and it did not take her long to devour a plate of cereal and three pieces of toast, followed by a cup of warm milk."
+    },
+    {
+      "synonyms": "It was time to check the stalls to see if one time Sputnik had given birth to a fresh foal .",
+      "antonyms": "It was time to check the unstable to see if new Sputnik had given birth to a old foal .",
+      "raw": "It was time to check the stable to see if old Sputnik had given birth to a new foal."
+    },
+    {
+      "synonyms": "Five years agone , Sputnik had been a champion racehorse , winning seven races from only a dozen starts before a wooden leg injury forced her to retire from the racetrack .",
+      "raw": "Five years ago, Sputnik had been a champion racehorse, winning seven races from only a dozen starts before a leg injury forced her to retire from the racetrack."
+    },
+    {
+      "synonyms": "soon , she entered the stables where Sputnik was locked forth .",
+      "antonyms": "Soon , she entered the stables where Sputnik was locked home .",
+      "raw": "Soon, she entered the stables where Sputnik was locked away."
+    },
+    {
+      "synonyms": "There , on a bed of hay , lay a cover girl baby filly , just two hours onetime .",
+      "antonyms": "There , on a bed of hay , lay a lovely baby filly , just two hours young .",
+      "raw": "There, on a bed of hay, lay a lovely baby filly, just two hours old."
+    },
+    {
+      "synonyms": "Above her and standing proudly on guard was the hoar Sputnik .",
+      "raw": "Above her and standing proudly on guard was the grey Sputnik."
+    },
+    {
+      "synonyms": "Shirley jumped for joy before spinning close to and charging hinder to the house to tell the others the unspoiled news .",
+      "antonyms": "Shirley jumped for joy before spinning around and charging veer to the house to tell the others the badness news .",
+      "raw": "Shirley jumped for joy before spinning around and charging back to the house to tell the others the good news."
+    },
+    {
+      "synonyms": "She wiped her feet cautiously on the doormat before going down the hallway that led to the kitchen .",
+      "antonyms": "She wiped her feet carelessly on the doormat before going down the hallway that led to the kitchen .",
+      "raw": "She wiped her feet carefully on the doormat before going down the hallway that led to the kitchen."
+    },
+    {
+      "synonyms": "Mother looked up from the kitchen table at Shirley ’ s felicitous face .",
+      "antonyms": "Mother looked up from the kitchen table at Shirley ’ s unhappy face .",
+      "raw": "Mother looked up from the kitchen table at Shirley’s happy face."
+    },
+    {
+      "synonyms": "“ It ’ s a filly , the same colour as her mum , ” replied an energize Shirley .",
+      "antonyms": "“ It ’ s a filly , the same colour as her mum , ” replied an unexcited Shirley .",
+      "raw": "“It’s a filly, the same colour as her mum,” replied an excited Shirley."
+    },
+    {
+      "synonyms": "Before yearn , Shirley was off to the study room where all her homework was done .",
+      "antonyms": "Before short , Shirley was off to the study room where all her homework was done .",
+      "raw": "Before long, Shirley was off to the study room where all her homework was done."
+    },
+    {
+      "synonyms": "Taking her diary from the bookshelf , she wrote ‘ Born on the ten percent day of the ten percent month , a trivial filly with shaky legs – I think I ’ ll call her ‘ Legs Go ’ .",
+      "antonyms": "Taking her diary from the bookshelf , she wrote ‘ Born on the tenth day of the tenth month , a much filly with wobbly legs – I think I ’ ll call her ‘ Legs Go ’ .",
+      "raw": "Taking her diary from the bookshelf, she wrote ‘Born on the tenth day of the tenth month, a little filly with wobbly legs – I think I’ll call her ‘Legs Go’."
+    }
+  ],
+  "4": [
+    {
+      "antonyms": "In few countries , cars on the roads cause problems for people .",
+      "raw": "In many countries, cars on the roads cause problems for people."
+    },
+    {
+      "synonyms": "Car exhausts as well pour out unsafe fumes , containing lead into the air we breathe .",
+      "antonyms": "Car exhausts also pour out safe fumes , containing lead into the air we breathe .",
+      "raw": "Car exhausts also pour out dangerous fumes, containing lead into the air we breathe."
+    },
+    {
+      "synonyms": "Lead is used in petrol to prevent the wearing forth of parts inside the engine .",
+      "antonyms": "Lead is used in petrol to prevent the wearing home of parts inside the engine .",
+      "raw": "Lead is used in petrol to prevent the wearing away of parts inside the engine."
+    },
+    {
+      "synonyms": "New cars use leadless petrol .",
+      "antonyms": "New cars use leaded petrol .",
+      "raw": "New cars use unleaded petrol."
+    },
+    {
+      "synonyms": "This is mostly safety for people to use .",
+      "antonyms": "This is specifically out for people to use .",
+      "raw": "This is generally safe for people to use."
+    },
+    {
+      "synonyms": "yet , some doctors believe a chemical called benzene can be life threatening to our health .",
+      "antonyms": "However , some doctors believe a chemical called benzene can be safe to our health .",
+      "raw": "However, some doctors believe a chemical called benzene can be dangerous to our health."
+    },
+    {
+      "synonyms": "It is produced when leadless petrol is used in cars that are not desirable for leadless fuel .",
+      "antonyms": "It is produced when leaded petrol is used in cars that are not suitable for leaded fuel .",
+      "raw": "It is produced when unleaded petrol is used in cars that are not suitable for unleaded fuel."
+    },
+    {
+      "synonyms": "At sure times of the day , traffic jams are a problem on our principal roads and governments have to think of ways to prevent them .",
+      "antonyms": "At unsealed times of the day , traffic jams are a problem on our dependent roads and governments have to think of ways to prevent them .",
+      "raw": "At certain times of the day, traffic jams are a problem on our main roads and governments have to think of ways to prevent them."
+    },
+    {
+      "synonyms": "One way is to ask drivers to leave their cars at home and use populace transport such as buses and trains .",
+      "antonyms": "One way is to ask drivers to leave their cars at home and use private transport such as buses and trains .",
+      "raw": "One way is to ask drivers to leave their cars at home and use public transport such as buses and trains."
+    },
+    {
+      "synonyms": "It has been bear witness good for most countries .",
+      "antonyms": "It has been unproved ineffective for most countries .",
+      "raw": "It has been proven effective for most countries."
+    }
+  ],
+  "5": [
+    {
+      "synonyms": "My father and I were just discussing about earthquakes for my school project last place week .",
+      "antonyms": "My father and I were just discussing about earthquakes for my school project first week .",
+      "raw": "My father and I were just discussing about earthquakes for my school project last week."
+    },
+    {
+      "synonyms": "too , an earthquake that happened in 1556 in China killed the most number of people .",
+      "raw": "Also, an earthquake that happened in 1556 in China killed the most number of people."
+    },
+    {
+      "synonyms": "and so go night , I heard about the earthquake in Lombok , Indonesia on the news .",
+      "antonyms": "Then first night , I heard about the earthquake in Lombok , Indonesia on the news .",
+      "raw": "Then last night, I heard about the earthquake in Lombok, Indonesia on the news."
+    },
+    {
+      "antonyms": "I read on the newspaper that few buildings gave way and thousands lost their homes .",
+      "raw": "I read on the newspaper that many buildings gave way and thousands lost their homes."
+    },
+    {
+      "synonyms": "fortunately , there is no tsunami this time .",
+      "antonyms": "unfortunately , there is no tsunami this time .",
+      "raw": "Luckily, there is no tsunami this time."
+    },
+    {
+      "synonyms": "I was besides relieved to hear that the area you lived in only experienced some thin tremors .",
+      "antonyms": "I was also relieved to hear that the area you lived in only experienced some much tremors .",
+      "raw": "I was also relieved to hear that the area you lived in only experienced some slight tremors."
+    },
+    {
+      "synonyms": "I got more matter to and worry , so I continued searching on the Internet .",
+      "antonyms": "I got more uninterested and unconcerned , so I continued searching on the Internet .",
+      "raw": "I got more interested and concerned, so I continued searching on the Internet."
+    },
+    {
+      "synonyms": "I realised some earthquakes are so low that machines can not pick up on them , frankincense , we can not feel them too .",
+      "antonyms": "I realised some earthquakes are so big that machines can not pick up on them , thus , we can not feel them too .",
+      "raw": "I realised some earthquakes are so small that machines cannot pick up on them, thus, we cannot feel them too."
+    },
+    {
+      "synonyms": "I likewise found out that Indonesia sits on the Pacific “ Ring of Fire ” where many earthquakes and volcanic eruptions occur .",
+      "antonyms": "I also found out that Indonesia sits on the Pacific “ Ring of Fire ” where few earthquakes and volcanic eruptions occur .",
+      "raw": "I also found out that Indonesia sits on the Pacific “Ring of Fire” where many earthquakes and volcanic eruptions occur."
+    },
+    {
+      "synonyms": "Some earthquakes happened rich in the sea and are not noticed by people on land .",
+      "antonyms": "Some earthquakes happened shallow in the sea and are not noticed by people on land .",
+      "raw": "Some earthquakes happened deep in the sea and are not noticed by people on land."
+    },
+    {
+      "synonyms": "all the same , some are too alir below the surface to be felt .",
+      "antonyms": "However , some are too near below the surface to be felt .",
+      "raw": "However, some are too far below the surface to be felt."
+    },
+    {
+      "synonyms": "With modern and better technology , I expect scientists to invent a machine to predict earthquakes one day to help everyone .",
+      "antonyms": "With worn and better technology , I expect scientists to invent a machine to predict earthquakes one day to help everyone .",
+      "raw": "With new and better technology, I expect scientists to invent a machine to predict earthquakes one day to help everyone."
+    },
+    {
+      "synonyms": "I hope you and your family in Indonesia will stay safety and substantially .",
+      "antonyms": "I hope you and your family in Indonesia will stay dangerous and badly .",
+      "raw": "I hope you and your family in Indonesia will stay safe and well."
+    },
+    {
+      "synonyms": "Take care and publish presently !",
+      "raw": "Take care and write soon!"
+    }
+  ],
+  "6": [
+    {
+      "synonyms": "6 April 2018 Dear Diary , go week , our school told us to prepare three presents for the ‘ Friendship Day ’ celebrations .",
+      "antonyms": "6 April 2018 Dear Diary , first week , our school told us to prepare three presents for the ‘ Friendship Day ’ celebrations .",
+      "raw": "6 April 2018 Dear Diary, Last week, our school told us to prepare three presents for the ‘Friendship Day’ celebrations."
+    },
+    {
+      "synonyms": "These were to be given to our proficient friends .",
+      "antonyms": "These were to be given to our evil friends .",
+      "raw": "These were to be given to our good friends."
+    },
+    {
+      "synonyms": "I was very felicitous and expected many gifts from my friends as I was very well disposed and pop in my class .",
+      "antonyms": "I was very unhappy and expected few gifts from my friends as I was very unfriendly and unpopular in my class .",
+      "raw": "I was very happy and expected many gifts from my friends as I was very friendly and popular in my class."
+    },
+    {
+      "synonyms": "Today , when all the presents were distributed among my classmates , I received ten spot presents !",
+      "raw": "Today, when all the presents were distributed among my classmates, I received ten presents!"
+    },
+    {
+      "synonyms": "only as I was going to unwrap my presents , I noticed a classmate who was empty handed .",
+      "antonyms": "unfair as I was going to unwrap my presents , I noticed a classmate who was empty-handed .",
+      "raw": "Just as I was going to unwrap my presents, I noticed a classmate who was empty-handed."
+    },
+    {
+      "synonyms": "It was julian the apostate , the boy who had joined our school two weeks agone .",
+      "raw": "It was Julian, the boy who had joined our school two weeks ago."
+    },
+    {
+      "synonyms": "He sat mutely in a corner of the classroom , looking out of the window miserably .",
+      "raw": "He sat silently in a corner of the classroom, looking out of the window miserably."
+    },
+    {
+      "synonyms": "fortunately , my mother had advised me to prepare an excess present .",
+      "antonyms": "unfortunately , my mother had advised me to prepare an extra present .",
+      "raw": "Fortunately, my mother had advised me to prepare an extra present."
+    },
+    {
+      "synonyms": "At initiatory , he looked storm , but before long a blanket grin slow bedcover across his face .",
+      "antonyms": "At last , he looked unsurprised , but soon a narrow grin quickly gather across his face .",
+      "raw": "At first, he looked surprised, but soon a wide grin slowly spread across his face."
+    },
+    {
+      "synonyms": "He thanked me appreciatively .",
+      "antonyms": "He thanked me ungratefully .",
+      "raw": "He thanked me gratefully."
+    },
+    {
+      "synonyms": "and so he apologised as he had not prepared a gift for anyone .",
+      "raw": "Then he apologised as he had not prepared a gift for anyone."
+    },
+    {
+      "synonyms": "By the end of the day , I had made a young friend .",
+      "antonyms": "By the end of the day , I had made a worn friend .",
+      "raw": "By the end of the day, I had made a new friend."
+    }
+  ],
+  "7": [
+    {
+      "synonyms": "His faithful follower , Fox , was invariably beside him .",
+      "antonyms": "His faithful follower , Fox , was never beside him .",
+      "raw": "His faithful follower, Fox, was always beside him."
+    },
+    {
+      "synonyms": "Simba had forever given the leftovers of his hunt to Fox .",
+      "antonyms": "Simba had never given the leftovers of his hunt to Fox .",
+      "raw": "Simba had always given the leftovers of his hunt to Fox."
+    },
+    {
+      "synonyms": "Since Simba was ineffectual to hunt , Fox had to remain athirst .",
+      "antonyms": "Since Simba was able to hunt , Fox had to remain thirsty .",
+      "raw": "Since Simba was unable to hunt, Fox had to remain hungry."
+    },
+    {
+      "synonyms": "Simba said , “ Bring me a worthy animal which I can hunt regular in my weak state. ” Fox set out for the nearby village where he met a donkey .",
+      "antonyms": "Simba said , “ Bring me a suitable animal which I can hunt odd in my feeble state. ” Fox set out for the nearby village where he met a donkey .",
+      "raw": "Simba said, “Bring me a suitable animal which I can hunt even in my feeble state.” Fox set out for the nearby village where he met a donkey."
+    },
+    {
+      "synonyms": "“ Are you not intimately ? ” “ Yes , friend , ” replied the donkey , “ my master gives me small food. ” “ Come with me !",
+      "antonyms": "“ Are you not ill ? ” “ Yes , friend , ” replied the donkey , “ my master gives me big food. ” “ Come with me !",
+      "raw": "“Are you not well?” “Yes, friend,” replied the donkey, “my master gives me little food.” “Come with me!"
+    },
+    {
+      "synonyms": "blithely , the donkey followed Fox with dreams of unripe grass .",
+      "antonyms": "sadly , the donkey followed Fox with dreams of ripe grass .",
+      "raw": "Happily, the donkey followed Fox with dreams of green grass."
+    },
+    {
+      "synonyms": "unfortunately , he missed the donkey and it ran aside .",
+      "antonyms": "fortunately , he missed the donkey and it ran home .",
+      "raw": "Unluckily, he missed the donkey and it ran away."
+    },
+    {
+      "synonyms": "“ Friend , why did you run out ?",
+      "antonyms": "“ Friend , why did you run home ?",
+      "raw": "“Friend, why did you run away?"
+    },
+    {
+      "synonyms": "The lion king was so glad to see you that he jumped up to welcome you. ” The donkey was fooled again and accompanied Fox to see the lion in his cave .",
+      "antonyms": "The lion king was so unhappy to see you that he jumped up to welcome you. ” The donkey was fooled again and accompanied Fox to see the lion in his cave .",
+      "raw": "The lion king was so happy to see you that he jumped up to welcome you.” The donkey was fooled again and accompanied Fox to see the lion in his cave."
+    },
+    {
+      "synonyms": "This time Simba was very thrifty and killed the dopey donkey now .",
+      "antonyms": "This time Simba was very careless and killed the wise donkey immediately .",
+      "raw": "This time Simba was very careful and killed the foolish donkey immediately."
+    }
+  ],
+  "8": [
+    {
+      "synonyms": "Though they looked standardised , they differed in personality .",
+      "antonyms": "Though they looked unlike , they differed in personality .",
+      "raw": "Though they looked similar, they differed in personality."
+    },
+    {
+      "synonyms": "While Sam was generous and selfless , Tom was prehensile and selfish !",
+      "antonyms": "While Sam was ungenerous and selfless , Tom was greedy and unselfish !",
+      "raw": "While Sam was generous and selfless, Tom was greedy and selfish!"
+    },
+    {
+      "synonyms": "As the twins grew up , their father wanted to share his fortune as between them .",
+      "antonyms": "As the twins grew up , their father wanted to share his fortune unevenly between them .",
+      "raw": "As the twins grew up, their father wanted to share his fortune equally between them."
+    },
+    {
+      "synonyms": "still , Tom disagreed and argued that whoever proved to be more level headed and firm should get a bigger share of the wealth .",
+      "antonyms": "However , Tom disagreed and argued that whoever proved to be more unintelligent and impotent should get a bigger share of the wealth .",
+      "raw": "However, Tom disagreed and argued that whoever proved to be more intelligent and strong should get a bigger share of the wealth."
+    },
+    {
+      "synonyms": "He asked the twins to walk for as hanker as they could , and return home before sunset .",
+      "antonyms": "He asked the twins to walk for as unretentive as they could , and return home before sunset .",
+      "raw": "He asked the twins to walk for as long as they could, and return home before sunset."
+    },
+    {
+      "synonyms": "On the day of competition , Sam walked easy and steady , while Tom sprinted as he wanted to win the race .",
+      "antonyms": "On the day of competition , Sam walked quickly and unsteadily , while Tom sprinted as he wanted to win the race .",
+      "raw": "On the day of competition, Sam walked slowly and steadily, while Tom sprinted as he wanted to win the race."
+    },
+    {
+      "synonyms": "Sam planned to walk as interahamwe as potential till noon and start for home thenceforth , as it would take the same amount of time to walk backward home .",
+      "antonyms": "Sam planned to walk as near as impossible till noon and start for home thereafter , as it would take the same amount of time to walk advance home .",
+      "raw": "Sam planned to walk as far as possible till noon and start for home thereafter, as it would take the same amount of time to walk back home."
+    },
+    {
+      "synonyms": "however , Tom did not attempt to return home flush after noon .",
+      "antonyms": "However , Tom did not attempt to return home odd after noon .",
+      "raw": "However, Tom did not attempt to return home even after noon."
+    },
+    {
+      "synonyms": "Tom walked doubly as prospicient as Sam so as to get more wealth .",
+      "antonyms": "Tom walked twice as unretentive as Sam so as to get more wealth .",
+      "raw": "Tom walked twice as long as Sam so as to get more wealth."
+    },
+    {
+      "synonyms": "easy , darkness engulfed his path and he had to drag his feet home .",
+      "antonyms": "quickly , darkness engulfed his path and he had to drag his feet home .",
+      "raw": "Slowly, darkness engulfed his path and he had to drag his feet home."
+    }
+  ],
+  "9": [
+    {
+      "synonyms": "Whales are unparalleled creatures .",
+      "raw": "Whales are unique creatures."
+    },
+    {
+      "synonyms": "Although they look like fish and live in the sea , unlike fish , they are warm blooded mammals .",
+      "antonyms": "Although they look like fish and live in the sea , unlike fish , they are cold blooded mammals .",
+      "raw": "Although they look like fish and live in the sea, unlike fish, they are warm-blooded mammals."
+    },
+    {
+      "synonyms": "They besides use their flippers to slap voiceless against the water before lunging itself out of the water to warn others of approaching threat .",
+      "antonyms": "They also use their flippers to slap lightly against the water before lunging itself out of the water to warn others of approaching threat .",
+      "raw": "They also use their flippers to slap hard against the water before lunging itself out of the water to warn others of approaching threat."
+    },
+    {
+      "synonyms": "Whales can dive to bully depths , holding their breaths for a longsighted period of time .",
+      "antonyms": "Whales can dive to great depths , holding their breaths for a short period of time .",
+      "raw": "Whales can dive to great depths, holding their breaths for a long period of time."
+    },
+    {
+      "synonyms": "They breathe in air through their blowholes rather of their mouths when they surface , and their breaths form a cloudy ‘ spout ’ .",
+      "raw": "They breathe in air through their blowholes instead of their mouths when they surface, and their breaths form a cloudy ‘spout’."
+    },
+    {
+      "synonyms": "Among the two kinds of whales , the erose whales have teeth and they feed on all kinds of fish , plankton and crustaceans .",
+      "antonyms": "Among the two kinds of whales , the toothless whales have teeth and they feed on all kinds of fish , plankton and crustaceans .",
+      "raw": "Among the two kinds of whales, the toothed whales have teeth and they feed on all kinds of fish, plankton and crustaceans."
+    },
+    {
+      "synonyms": "Toothed whales include the sperm cell whale .",
+      "raw": "Toothed whales include the sperm whale."
+    },
+    {
+      "synonyms": "in the meantime the wholebone or better known as baleen whales have a brobdingnagian sieve-like structure hanging from the roof of their mouths rather of teeth .",
+      "raw": "Meanwhile the wholebone or better known as baleen whales have a huge sieve-like structure hanging from the roof of their mouths instead of teeth."
+    },
+    {
+      "synonyms": "This filters the diminutive plants and animals from the water passing through the heavyweight ’ s mouth .",
+      "raw": "This filters the tiny plants and animals from the water passing through the whale’s mouth."
+    },
+    {
+      "synonyms": "Wholebone whales include the biggest mammalian – the blue air whale .",
+      "raw": "Wholebone whales include the biggest mammal – the blue whale."
+    },
+    {
+      "synonyms": "many whales migrate by swimming farsighted distances from their cold-water feeding grounds to warm-water breeding grounds every year .",
+      "antonyms": "few whales migrate by swimming unretentive distances from their cold-water feeding grounds to warm-water breeding grounds every year .",
+      "raw": "Many whales migrate by swimming long distances from their cold-water feeding grounds to warm-water breeding grounds every year."
+    },
+    {
+      "synonyms": "Unlike toothed whales , the whalebone whale can travel unparalleled on their one year migrations .",
+      "antonyms": "Unlike toothed whales , the baleen whale can travel alone on their biennial migrations .",
+      "raw": "Unlike toothed whales, the baleen whale can travel alone on their annual migrations."
+    }
+  ]
+}

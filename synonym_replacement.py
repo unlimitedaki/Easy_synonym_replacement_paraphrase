@@ -4,11 +4,12 @@ from nltk.corpus import stopwords
 from nltk.tokenize import sent_tokenize
 import nltk
 import json
-import argparser
+import argparse
 import pdb
 nltk.download('averaged_perceptron_tagger')
 nltk.download('punkt')
 nltk.download('wordnet')
+nltk.download('stopwords')
 
 
 def load_data(file_name):
@@ -29,7 +30,7 @@ def get_synonyms_and_antonyms(word):
                 [char for char in synonym if char in ' qwertyuiopasdfghjklzxcvbnm'])
             synonyms.add(synonym)
             if l.antonyms():
-                antonym = l.name().replace("_", " ").replace("-", " ").lower()
+                antonym = l.antonyms()[0].name().replace("_", " ").replace("-", " ").lower()
                 antonym = "".join(
                     [char for char in antonym if char in ' qwertyuiopasdfghjklzxcvbnm'])
                 antonyms.add(antonym)
@@ -41,32 +42,43 @@ def get_synonyms_and_antonyms(word):
 def synonym_antonym_replacement(args):
     sentence_data = load_data(args.file_name)
     result_json = {}
+    sw_en = stopwords.words("english")
     for doc_index, document in enumerate(sentence_data):
         result_json[doc_index] = []
         for sentence in document:
             sentence_json = {}
-            pdb.set_trace()
+            # pdb.set_trace()
             # just simplely use nltk tools to tokenize and pos_tagging
             words = nltk.word_tokenize(sentence)
             sy_words = words.copy()
             an_words = words.copy()
             pos_list = nltk.pos_tag(words)
+            sy_flag = False
+            an_flag = False
             for i in range(len(words)):
-                if words[i] not in nltk.stopwords and pos_list[i] in ["JJ", "RB"]:
+                if words[i] not in sw_en and pos_list[i][1] in ["JJ", "RB"]:
+                    # pdb.set_trace()
                     synonyms, antonyms = get_synonyms_and_antonyms(words[i])
                     # random pick one synonym and one antonym
                     if len(synonyms) > 0:
+                        sy_flag = True
                         synonym = random.sample(synonyms, 1)[0]
                         sy_words[i] = synonym
                     if len(antonyms) > 0:
+                        an_flag = True
                         antonym = random.sample(antonyms, 1)[0]
                         an_words[i] = antonym
             sy_sentence = " ".join(sy_words)
             an_sentence = " ".join(an_words)
-            sentence_json['raw'] = sentence
-            sentence_json['synonyms'] = sy_sentence
-            sentence_json['antonyms'] = an_sentence
-            result_json.append(sentence_json)
+            if sy_flag:
+                sentence_json['synonyms'] = sy_sentence
+            if an_flag:
+                sentence_json['antonyms'] = an_sentence
+            if sy_flag or an_flag:
+                sentence_json['raw'] = sentence
+                result_json[doc_index].append(sentence_json)
+    with open("result.json",'w',encoding = "utf8") as f:
+        json.dump(result_json,f,indent = 2,ensure_ascii = False)
     return result_json
 
 
@@ -89,5 +101,6 @@ except:
     # on notebook
     args = parser.parse_args(args=[])
 
-if __name__ == "main":
+if __name__ == "__main__":
+    print("main")
     synonym_antonym_replacement(args)
