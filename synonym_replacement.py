@@ -1,6 +1,7 @@
 import nltk
 import json
 import argparser
+import pdb
 nltk.download('averaged_perceptron_tagger')
 nltk.download('punkt')
 nltk.download('wordnet')
@@ -17,16 +18,11 @@ def load_data(file_name):
     sentence_data = [sent_tokenize(line) for line in data] 
     return sentence_data
 
-# def find_
-
 def get_synonyms_and_antonyms(word):
-    '''
-    get synonyms and antonyms of given word from wordnet
-    '''
-	synonyms = set()
-    antonyms = set()
-	for syn in wordnet.synsets(word): 
-		for l in syn.lemmas(): 
+	synonyms=set()
+    antonyms=set()
+    for syn in wordnet.synsets(word): 
+	    for l in syn.lemmas(): 
 			synonym = l.name().replace("_", " ").replace("-", " ").lower()
 			synonym = "".join([char for char in synonym if char in ' qwertyuiopasdfghjklzxcvbnm'])
 			synonyms.add(synonym)
@@ -45,7 +41,7 @@ def synonym_antonym_replacement(args):
         result_json[doc_index] = []
         for sentence in document:
             sentence_json = {}
-
+            pdb.set_trace()
             # just simplely use nltk tools to tokenize and pos_tagging
             words = nltk.word_tokenize(sentence)
             sy_words = words.copy()
