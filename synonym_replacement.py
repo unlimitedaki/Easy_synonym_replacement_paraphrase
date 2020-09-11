@@ -19,7 +19,7 @@ def load_data(file_name):
     return sentence_data
 
 def get_synonyms_and_antonyms(word):
-	synonyms=set()
+    synonyms=set()
     antonyms=set()
     for syn in wordnet.synsets(word): 
 	    for l in syn.lemmas(): 
@@ -30,9 +30,9 @@ def get_synonyms_and_antonyms(word):
                 antonym = l.name().replace("_", " ").replace("-", " ").lower()
                 antonym  = "".join([char for char in antonym if char in ' qwertyuiopasdfghjklzxcvbnm'])
                 antonyms.add(antonym)
-	if word in synonyms:
+    if word in synonyms:
 		synonyms.remove(word)
-	return list(synonyms),list(antonyms)
+    return list(synonyms),list(antonyms)
 
 def synonym_antonym_replacement(args):
     sentence_data = load_data(args.file_name)
