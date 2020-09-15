@@ -21,6 +21,9 @@ def load_data(file_name):
 
 
 def get_synonyms_and_antonyms(word):
+    ''' 
+    获取当前词的 同义词 & 反义词
+    '''
     synonyms = set()
     antonyms = set()
     for syn in wordnet.synsets(word):
@@ -47,19 +50,18 @@ def synonym_antonym_replacement(args):
         result_json[doc_index] = []
         for sentence in document:
             sentence_json = {}
-            # pdb.set_trace()
             # just simplely use nltk tools to tokenize and pos_tagging
             words = nltk.word_tokenize(sentence)
             sy_words = words.copy()
             an_words = words.copy()
             pos_list = nltk.pos_tag(words)
+            # only output sentence with at least one synonym or antonym
             sy_flag = False
             an_flag = False
             for i in range(len(words)):
                 if words[i] not in sw_en and pos_list[i][1] in ["JJ", "RB"]:
-                    # pdb.set_trace()
                     synonyms, antonyms = get_synonyms_and_antonyms(words[i])
-                    # random pick one synonym and one antonym
+                    # just random pick one synonym and one antonym
                     if len(synonyms) > 0:
                         sy_flag = True
                         synonym = random.sample(synonyms, 1)[0]
