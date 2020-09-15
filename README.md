@@ -22,6 +22,6 @@ OUTPUT = result.json
 
 ```
 INPUT = raw_sentence, replace_word , FLAG(synonym or antonym)
-OUTPUT = replaced_sentence(paragraph)
+RETURN = replaced_sentence(paragraph)
 ```
 
